@@ -1,4 +1,3 @@
-import { Box } from 'components/Box';
 import { List, Item } from './ReviewsList.styled';
 
 export const ReviewsList = ({ reviews }) => {

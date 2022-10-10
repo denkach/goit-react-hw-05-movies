@@ -1,4 +1,3 @@
-import { Box } from 'components/Box';
 import { Item, List } from './CastInfo.styled';
 
 export const CastInfo = ({ cast }) => {

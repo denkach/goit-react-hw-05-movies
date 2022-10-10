@@ -3,7 +3,7 @@ import { searchMovie } from 'services/filmsAPI';
 import { Box } from 'components/Box';
 import { useState, useEffect } from 'react';
 import { FilmsList } from 'components/FilmsList/FilmsList';
-import { NavLink, useLocation, useSearchParams } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
 
 export const Movies = () => {
   const [movies, setMovies] = useState([]);

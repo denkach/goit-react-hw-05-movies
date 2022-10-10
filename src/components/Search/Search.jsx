@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import { Box } from '../Box';
 
 export const Search = ({ changeQuery }) => {
